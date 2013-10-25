@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 229
-  Top = 405
+  Left = 242
+  Top = 489
   Width = 928
   Height = 480
   Caption = 'Form1'
@@ -90,10 +90,6 @@ object Form1: TForm1
       object N15: TMenuItem
         Caption = #1096#1088#1080#1092#1090
         OnClick = N15Click
-      end
-      object N10: TMenuItem
-        Caption = #1076#1072#1090#1072' '#1080' '#1074#1088#1077#1084#1103
-        OnClick = N10Click
       end
     end
     object N12: TMenuItem

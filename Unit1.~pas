@@ -29,7 +29,6 @@ type
     N15: TMenuItem;
     SaveDialog1: TSaveDialog;
     OpenDialog1: TOpenDialog;
-    N10: TMenuItem;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
@@ -50,7 +49,6 @@ type
     procedure N15Click(Sender: TObject);
     procedure N13Click(Sender: TObject);
     procedure N14Click(Sender: TObject);
-    procedure N10Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -185,18 +183,12 @@ end;
 
 procedure TForm1.N13Click(Sender: TObject);
 begin
-ShowMessage('Для сохранения введите имя файла и через точку его формат'+#13+'для открытия файла выберите фаил текстового формата'+#13'для нахождения текста введите нужное вам слово или текст и нажмите поиск нужное слово будет выделенно'
-+#13'для замены текста в открывшемся окне введите текст который хотите заменить и введите на какой хотите заменить и т.д.'+#13'');
+ShowMessage('фирма Белка-интерпрайз'+#13+'представляет текстовый редактор'+#13'специально для вас'+#13'2013.10.20');
 end;
 
 procedure TForm1.N14Click(Sender: TObject);
 begin
 ShowMessage('Репин Владислав');
-end;
-
-procedure TForm1.N10Click(Sender: TObject);
-begin
-Memo1.Lines.Text:=Memo1.Lines.Text+#13+DateTimetostr(Now);
 end;
 
 end.
